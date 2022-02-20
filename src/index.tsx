@@ -1,10 +1,8 @@
-import * as React from 'react'
-import styles from './styles.module.css'
+import Preloader from './Preloader'
+import useLoader from './useLoader'
 
-interface Props {
-  text: string
+export {
+  Preloader,
+  useLoader,
 }
 
-export const ExampleComponent = ({ text }: Props) => {
-  return <div className={styles.test}>Example Component: {text}</div>
-}
